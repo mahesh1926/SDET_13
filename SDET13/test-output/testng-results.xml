@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-07T10:06:51 IST" name="Default suite" finished-at="2021-05-07T10:08:53 IST" duration-ms="121222">
+    <groups>
+    </groups>
+    <test started-at="2021-05-07T10:06:51 IST" name="Default test" finished-at="2021-05-07T10:08:53 IST" duration-ms="121222">
+      <class name="com.crm.vtiger.AllocatedTestCases.TC_45_CreatePurchaseOrder">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.crm.vtiger.AllocatedTestCases.TC_45_CreatePurchaseOrder@bef2d72]" started-at="2021-05-07T10:06:51 IST" name="configBS" finished-at="2021-05-07T10:06:51 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBT()[pri:0, instance:com.crm.vtiger.AllocatedTestCases.TC_45_CreatePurchaseOrder@bef2d72]" started-at="2021-05-07T10:06:51 IST" name="configBT" finished-at="2021-05-07T10:06:51 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBT -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.crm.vtiger.AllocatedTestCases.TC_45_CreatePurchaseOrder@bef2d72]" started-at="2021-05-07T10:06:51 IST" name="configBC" finished-at="2021-05-07T10:06:59 IST" duration-ms="7087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.vtiger.AllocatedTestCases.TC_45_CreatePurchaseOrder@bef2d72]" started-at="2021-05-07T10:06:59 IST" name="setUp" finished-at="2021-05-07T10:07:15 IST" duration-ms="16026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CreatePurchaseOrder()[pri:0, instance:com.crm.vtiger.AllocatedTestCases.TC_45_CreatePurchaseOrder@bef2d72]" started-at="2021-05-07T10:07:15 IST" name="CreatePurchaseOrder" finished-at="2021-05-07T10:08:52 IST" duration-ms="97454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatePurchaseOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.vtiger.AllocatedTestCases.TC_45_CreatePurchaseOrder@bef2d72]" started-at="2021-05-07T10:08:52 IST" name="tearDown" finished-at="2021-05-07T10:08:53 IST" duration-ms="397" status="FAIL">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : Billing Address cannot be none}
+  (Session info: chrome=90.0.4430.93): Billing Address cannot be none
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAHESH-PC', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Mahesh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51246}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 282f7dcbcbe51b3b274334b2909f4093
+*** Element info: {Using=xpath, value=//img[@src='themes/softed/images/user.PNG']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Billing Address cannot be none}
+  (Session info: chrome=90.0.4430.93): Billing Address cannot be none
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAHESH-PC', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Mahesh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51246}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 282f7dcbcbe51b3b274334b2909f4093
+*** Element info: {Using=xpath, value=//img[@src='themes/softed/images/user.PNG']}
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.crm.vtiger.Genericutils.BaseClass.tearDown(BaseClass.java:71)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:671)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:655)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crm.vtiger.AllocatedTestCases.TC_45_CreatePurchaseOrder@bef2d72]" started-at="2021-05-07T10:08:53 IST" name="configAC" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1620362333151" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAT()[pri:0, instance:com.crm.vtiger.AllocatedTestCases.TC_45_CreatePurchaseOrder@bef2d72]" started-at="2021-05-07T10:08:53 IST" name="configAT" finished-at="2021-05-07T10:08:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAT -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.crm.vtiger.AllocatedTestCases.TC_45_CreatePurchaseOrder@bef2d72]" started-at="2021-05-07T10:08:53 IST" name="configAS" finished-at="2021-05-07T10:08:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.crm.vtiger.AllocatedTestCases.TC_45_CreatePurchaseOrder -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
